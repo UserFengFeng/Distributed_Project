@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Distributed_Project.iml" filepath="$PROJECT_DIR$/.idea/Distributed_Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed/distributed.iml" filepath="$PROJECT_DIR$/distributed/distributed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecps_parent0315/ecps_console/ecps_console.iml" filepath="$PROJECT_DIR$/ecps_parent0315/ecps_console/ecps_console.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecps_parent0315/ecps_file/ecps_file.iml" filepath="$PROJECT_DIR$/ecps_parent0315/ecps_file/ecps_file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecps_parent0315/ecps_parent0315.iml" filepath="$PROJECT_DIR$/ecps_parent0315/ecps_parent0315.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecps_parent0315/ecps_portal/ecps_portal.iml" filepath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/ecps_portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecps_parent0315/ecps_score/ecps_score.iml" filepath="$PROJECT_DIR$/ecps_parent0315/ecps_score/ecps_score.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecpsconsole/ecpsconsole.iml" filepath="$PROJECT_DIR$/ecpsconsole/ecpsconsole.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecpscore/ecpscore.iml" filepath="$PROJECT_DIR$/ecpscore/ecpscore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecpsfile/ecpsfile.iml" filepath="$PROJECT_DIR$/ecpsfile/ecpsfile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecpsparent0315/ecpsparent0315.iml" filepath="$PROJECT_DIR$/ecpsparent0315/ecpsparent0315.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecpsportal/ecpsportal.iml" filepath="$PROJECT_DIR$/ecpsportal/ecpsportal.iml" />
+    </modules>
+  </component>
+</project>

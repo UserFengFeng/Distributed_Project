@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ecps_console" />
         <module name="ecps_score" />
         <module name="ecps_portal" />
         <module name="ecps_file" />

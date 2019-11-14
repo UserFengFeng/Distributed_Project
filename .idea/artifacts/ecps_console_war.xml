@@ -8,7 +8,12 @@
       </options>
     </properties>
     <root id="archive" name="ecps_console-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="ecps_console:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ecps_console" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="ecps_console/web/Web" />
     </root>
   </artifact>
 </component>

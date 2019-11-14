@@ -989,7 +989,7 @@
         <jmock.version>2.5.1</jmock.version>
         <jsp.version>2.1</jsp.version>
         <junit.version>4.8.2</junit.version>
-        <servlet.version>2.5</servlet.version>
+        <servlet.version>4.0.1</servlet.version>
         <wiser.version>1.2</wiser.version>
         <webtest.version>3.0</webtest.version>
         <axis2.version>1.5.4</axis2.version>

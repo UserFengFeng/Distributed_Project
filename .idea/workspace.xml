@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12aa9db8-7457-4cd2-9730-2ebff6163cd5" name="Default Changelist" comment="" />
+    <list default="true" id="12aa9db8-7457-4cd2-9730-2ebff6163cd5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_console/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_console/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_file/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_file/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_score/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_score/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps_parent0315/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +48,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -52,7 +61,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -80,6 +89,7 @@
       <workItem from="1573608120437" duration="2057000" />
       <workItem from="1573616975832" duration="95000" />
       <workItem from="1573617081240" duration="5614000" />
+      <workItem from="1573695010938" duration="2620000" />
     </task>
     <servers />
   </component>

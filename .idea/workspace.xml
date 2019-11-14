@@ -1,12 +1,337 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ecps_portal:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="12aa9db8-7457-4cd2-9730-2ebff6163cd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ecps_console_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ecps_console_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ecps_file_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ecps_file_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ecps_portal_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ecps_portal_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_console/ecps_console.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/ecps_portal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/css/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/css/buylist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/blue/backtotop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/blue/bg_740x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/blue/bg_h2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/blue/bg_h38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/blue/bg_leftMenu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/blue/bg_selectList.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/blue/bgline.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/blue/btn112x24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/blue/btn70x24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/blue/btn80x22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/blue/bx3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/blue/cartOK.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/blue/h2_ch.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/arr.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/bar_ch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/bg_bar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/bg_dl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/bg_entry.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/bg_h180.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/bg_h240.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/bg_h38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/bg_line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/bg_nav.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/bg_register.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/bg_sch.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/bg_tip.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/btn120x30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/btn60x26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/bx.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/bx2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/bx3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/bx4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/bx5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/cart-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/cart.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/cart_h3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/clear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/close1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/i18x22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/icon36x36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/icon_car.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/line_bar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/line_nav.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/logo153x58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/logo200x110.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/msg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/msg_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/nav_ch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/subnav_bg2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/tip_close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/up_nav.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/com/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/Android.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/Bluetooth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/CPU-Dual-core.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/Dual-cameras.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/Flip.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/GPS.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/Saipan.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/Slide.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/Sliding-cover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/Straight.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/Wifi.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/Window7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/arr.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/backtotop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bank/bank_01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bank/bank_02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bank/bank_03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bank/bank_04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bank/bank_05.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bank/bank_06.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bank/bank_07.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bank/bank_08.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bank/bank_09.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bank/bank_10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bank/bank_11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bank/bank_12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/begin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bg355x355.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bg52x30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bg_control_nav.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bg_control_nav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bg_control_nav1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bg_h2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bg_h4_ch.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bg_left_nav.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bg_sort.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/bg_text.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/big_type.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/btn100x26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/btn100x30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/btn120x30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/btn130x36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/btn136x36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/btn138x40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/btn176x46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/btn52x21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/btn60x20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/btn66x23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/btn70x21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/btn80x22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/btn96x23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/dev.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/end.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/h2_ch.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/h2_hot.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/h3_ch.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/icon16x16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/icon62x62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/li_h46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/ln01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/ln02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/ln03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/num.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/num2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/num2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/sel.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/set.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/sort_type.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/step.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/step.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/switch.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/gray/switch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/help/help_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/help/help_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/help/help_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/help/help_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/help/help_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/help/help_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/help/help_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/help/help_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/help/help_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/help/help_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/help/help_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/help/help_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/icon/android.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/icon/bluetooth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/icon/dual_cameras.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/icon/dual_core.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/icon/flip.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/icon/global.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/icon/gps.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/icon/icon_30x30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/icon/icon_title.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/icon/m_zone.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/icon/saipan.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/icon/shenzhouxing.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/icon/slide.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/icon/sliding_cover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/icon/straight.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/icon/timer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/icon/wifi.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/icon/window7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/ad1_238x118.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/ad200x169.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/ad200x244.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/ad200x75.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/ad218x364.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/ad230x88a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/ad230x88b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/ad2_238x118.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/ad420x205.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/ad950x80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/bank01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/bank02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/bank03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/bank04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/bank05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/bank06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/bank07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/bank08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/bank09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/bank10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/bank11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/bank12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/bigimage00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/bigimage01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/bigimage02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/bigimage03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/bigimage04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/hot.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/inacup_donut.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/inacup_pumpkin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/inacup_samoa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/inacup_vanilla.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/n01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/n02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/n03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/n04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/n05.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/n06.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/n07.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/n08.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/new.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/p140X140b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/p140x140a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/p140x140c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/p198x250a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/p198x250b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/p198x250c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/p396x130.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/p50x50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/p50x50b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/p50x50c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/p800a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/p800b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/p800c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/p800d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/smallimage-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/smallimage-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/smallimage-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/smallimage-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/smallimage-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/smallimage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/temp3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/temp4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/tinyimage-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/tinyimage-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/tinyimage-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/tinyimage-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/pic/tinyimage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/share/HaveAtry.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/share/counter.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/share/jiathis_ico16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/share/jiathis_ico_32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/share/shareButtonCounter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/share/type-button-share.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/share/type-button-tuijian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/addToF.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/bg_detail.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/bg_li.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/bg_num.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/bg_seckill.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/bg_wane.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/btn101x31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/btn107x44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/btn412x93.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/btn95x38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/btn98x23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/btn_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/btn_arrow2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/btn_as.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/btn_blue135x39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/btn_detail135x39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/btn_disable.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/btn_gray99x33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/btn_yellow99x33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/captcha.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/cellphone1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/check.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/clock.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/payWay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/phone_125x247.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/phone_51x102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/roundBot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/roundTop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/round_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/sep_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/sprite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/tab-here.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/tab-no.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/temp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/temp11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/temp2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/trait.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/trait1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/trait2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/trait3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/trait4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/img/tuangou/trait5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/js/cloud-zoom.1.0.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/js/com.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/js/html5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/res/js/unitpngfix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/passport/iframeLogin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/passport/iframeLogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/passport/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/person/changePassword.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/person/deliverAddress.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/person/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/person/myFavorites.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/person/myOrders.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/person/orderDetails.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/person/profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/person/returnApplication.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/person/returnOrders.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/person/returnSingleDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/phoneClassification.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/productDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/searchPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/shop/car.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/shop/confirmProductCase.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/shop/confirmProductCase1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/shop/confirmProductCase2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/src/main/webapp/template/taglibs.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_console/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_console/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_file/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_file/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_file/ecps_file.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_file/ecps_file.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_parent0315.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_parent0315.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_score/ecps_score.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_score/ecps_score.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_score/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_score/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps_parent0315/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/pom.xml" afterDir="false" />
     </list>
@@ -25,6 +350,13 @@
         <option value="D:\Project\Distributed_Project\.idea" />
       </set>
     </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -52,7 +384,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ecps_parent0315/ecps_score" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,7 +393,18 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\Distributed_Project\ecps_parent0315\ecps_portal\src\main\webapp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\Distributed_Project\ecps_parent0315\ecps_portal\src\main\webapp\WEB-INF" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -74,6 +417,81 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.22" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.22" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ecps_portal_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ecps_portal:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ecps_portal_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Distributed_Project" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61484" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ecps_portal:war" />
+        </option>
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -89,7 +507,8 @@
       <workItem from="1573608120437" duration="2057000" />
       <workItem from="1573616975832" duration="95000" />
       <workItem from="1573617081240" duration="5614000" />
-      <workItem from="1573695010938" duration="2620000" />
+      <workItem from="1573695010938" duration="3930000" />
+      <workItem from="1573699920990" duration="2529000" />
     </task>
     <servers />
   </component>

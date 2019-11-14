@@ -2,6 +2,9 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/distributed" />
+    <file type="web" url="file://$PROJECT_DIR$/ecps_parent0315/ecps_console" />
+    <file type="web" url="file://$PROJECT_DIR$/ecps_parent0315/ecps_file" />
+    <file type="web" url="file://$PROJECT_DIR$/ecps_parent0315/ecps_portal" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -16,7 +19,11 @@
         <option value="$PROJECT_DIR$/ecpsfile/pom.xml" />
         <option value="$PROJECT_DIR$/ecpsparent0315/pom.xml" />
         <option value="$PROJECT_DIR$/ecps_parent0315/pom.xml" />
+        <option value="$PROJECT_DIR$/ecps_parent0315/ecps_console/pom.xml" />
+        <option value="$PROJECT_DIR$/ecps_parent0315/ecps_file/pom.xml" />
+        <option value="$PROJECT_DIR$/ecps_parent0315/ecps_portal/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

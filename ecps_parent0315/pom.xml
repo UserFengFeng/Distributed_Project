@@ -17,6 +17,7 @@
         <module>ecps_file</module>
         <module>ecps_console</module>
         <module>ecps_portal</module>
+        <module>ecps_score</module>
     </modules>
 
     <properties>

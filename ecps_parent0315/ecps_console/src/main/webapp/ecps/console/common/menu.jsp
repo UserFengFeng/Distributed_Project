@@ -15,6 +15,7 @@
         <menu:displayMenu name="permission"/>
         <menu:displayMenu name="SystemSet"/>
         <menu:displayMenu name="reportMenu"/>
+        <menu:displayMenu name="StudentMenu"/>
      </ul>
     <p></p>
 </div>

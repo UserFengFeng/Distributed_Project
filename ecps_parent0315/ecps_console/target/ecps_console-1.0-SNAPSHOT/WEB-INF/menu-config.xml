@@ -30,6 +30,6 @@
 		
 		<Menu name="SAMPLE-LOGIN" title="APP-LOGIN" page="/sample/login.jsp" />
 		<Menu name="SAMPLE-INDEX" title="mainMenu.title" page="/sample/index.jsp" />
-      
+		<Menu name="StudentMenu" title="学生管理" page="/shop/student/index.jsp" />
 	</Menus>
 </MenuConfig>

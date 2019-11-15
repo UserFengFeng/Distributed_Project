@@ -16,11 +16,6 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
-    </properties>
 
     <dependencies>
         <dependency>
@@ -29,15 +24,20 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
-        <!--如果要引用父工程的定义好的依赖，只需要引入groupId、artifactId即可-->
-        <!--        <dependency>-->
-        <!--            <groupId>log4j</groupId>-->
-        <!--            <artifactId>log4j</artifactId>-->
-        <!--        </dependency>-->
 
+        <!--
+            如果要引用父工程的定义好的依赖只需要引入groupId和artifactId即可
+         -->
+        <!-- <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+        </dependency> -->
         <dependency>
-            <groupId>${jdbc.groupId}</groupId>
-            <artifactId>${jdbc.artifactId}</artifactId>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc14</artifactId>
+            <version>10.2.0.2.0</version>
+<!--            <groupId>${jdbc.groupId}</groupId>-->
+<!--            <artifactId>${jdbc.artifactId}</artifactId>-->
         </dependency>
         <dependency>
             <groupId>org.jmock</groupId>
@@ -549,7 +549,7 @@
         <dependency>
             <groupId>org.apache.axis2</groupId>
             <artifactId>axis2-kernel</artifactId>
-            <version>${axis2.version}</version>
+            <version>1.5.4</version>
             <exclusions>
                 <exclusion>
                     <artifactId>xercesImpl</artifactId>
@@ -560,17 +560,17 @@
         <dependency>
             <groupId>org.apache.axis2</groupId>
             <artifactId>axis2-adb</artifactId>
-            <version>${axis2.version}</version>
+            <version>1.5.4</version>
         </dependency>
         <dependency>
             <groupId>org.apache.axis2</groupId>
             <artifactId>axis2-transport-http</artifactId>
-            <version>${axis2.version}</version>
+            <version>1.5.4</version>
         </dependency>
         <dependency>
             <groupId>org.apache.axis2</groupId>
             <artifactId>axis2-transport-local</artifactId>
-            <version>${axis2.version}</version>
+            <version>1.5.4</version>
         </dependency>
 
         <dependency>

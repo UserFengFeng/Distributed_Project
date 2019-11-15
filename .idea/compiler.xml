@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ecps_console" />
         <module name="ecps_score" />
         <module name="ecps_portal" />
         <module name="ecps_file" />
@@ -14,11 +15,11 @@
     <bytecodeTargetLevel>
       <module name="distributed" target="1.5" />
       <module name="ecp_score" target="1.7" />
-      <module name="ecps_console" target="1.7" />
+      <module name="ecps_console" target="1.5" />
       <module name="ecps_file" target="1.7" />
-      <module name="ecps_parent0315" target="1.7" />
+      <module name="ecps_parent0315" target="1.5" />
       <module name="ecps_portal" target="1.7" />
-      <module name="ecps_score" target="1.7" />
+      <module name="ecps_score" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

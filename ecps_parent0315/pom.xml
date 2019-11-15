@@ -15,29 +15,61 @@
         <module>ecps_console</module>
         <module>ecps_score</module>
         <module>ecps_file</module>
-        <module>ecps_console</module>
-        <module>ecps_portal</module>
-        <module>ecps_score</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
-        <log4j.version>1.2.14</log4j.version>
+        <!-- <log4j.version>1.2.9</log4j.version> -->
+        <copyright.year>2011</copyright.year>
+        <cxf.version>2.3.3</cxf.version>
+        <commons.fileupload.version>1.2.1</commons.fileupload.version>
+        <commons.io.version>2.0.1</commons.io.version>
+        <commons.lang.version>2.5</commons.lang.version>
+        <spring.version>3.0.6.RELEASE</spring.version>
+        <jbpm.version>4.4</jbpm.version>
+        <cargo.version>1.0.6</cargo.version>
+        <jmock.version>2.5.1</jmock.version>
+        <jsp.version>2.1</jsp.version>
+        <junit.version>4.8.2</junit.version>
+        <servlet.version>2.5</servlet.version>
+        <wiser.version>1.2</wiser.version>
+        <webtest.version>3.0</webtest.version>
+        <axis2.version>1.5.4</axis2.version>
+        <jdbc.groupId>com.oracle</jdbc.groupId>
+        <jdbc.artifactId>ojdbc14</jdbc.artifactId>
+        <jdbc.version>10.2.0.2.0</jdbc.version>
+        <jdbc.driverClassName>oracle.jdbc.OracleDriver</jdbc.driverClassName>
+        <jedis.version>2.6.2</jedis.version>
     </properties>
 
-    <!--所有的子工程都会继承父工程的dependencies-->
-    <!--    <dependencies>-->
-    <!--        <dependency>-->
-    <!--            <groupId>log4j</groupId>-->
-    <!--            <artifactId>log4j</artifactId>-->
-    <!--            <version>1.2.9</version>-->
-    <!--        </dependency>-->
-    <!--    </dependencies>-->
-    <!-- 集中管理依赖 -->
+
+    <!--
+        所有的子工程都会继承父工程的dependencies
+     -->
+    <!--  <dependencies>
+          <dependency>
+              <groupId>log4j</groupId>
+              <artifactId>log4j</artifactId>
+              <version>1.2.9</version>
+          </dependency>
+     </dependencies> -->
+
     <dependencyManagement>
+
+        <!-- <dependencies>
+            <dependency>
+                <groupId>log4j</groupId>
+                 <artifactId>log4j</artifactId>
+                 <version>${log4j.version}</version>
+            </dependency>
+        </dependencies> -->
+
         <dependencies>
+            <dependency>
+                <groupId>redis.clients</groupId>
+                <artifactId>jedis</artifactId>
+                <version>${jedis.version}</version>
+            </dependency>
             <dependency>
                 <groupId>${jdbc.groupId}</groupId>
                 <artifactId>${jdbc.artifactId}</artifactId>
@@ -430,14 +462,14 @@
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpcore</artifactId>
-                <version>4.1.2</version>
+                <version>4.3</version>
                 <type>jar</type>
                 <scope>compile</scope>
             </dependency>
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient</artifactId>
-                <version>4.1.2</version>
+                <version>4.3.1</version>
                 <type>jar</type>
                 <scope>compile</scope>
             </dependency>
@@ -890,7 +922,7 @@
             <dependency>
                 <groupId>org.apache.solr</groupId>
                 <artifactId>solr-solrj</artifactId>
-                <version>3.4.0</version>
+                <version>4.10.3</version>
                 <exclusions>
                     <exclusion>
                         <artifactId>lucene-core</artifactId>
@@ -976,26 +1008,5 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-    <properties>
-        <!--        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
-        <copyright.year>2011</copyright.year>
-        <cxf.version>2.3.3</cxf.version>
-        <commons.fileupload.version>1.2.1</commons.fileupload.version>
-        <commons.io.version>2.0.1</commons.io.version>
-        <commons.lang.version>2.5</commons.lang.version>
-        <spring.version>3.0.6.RELEASE</spring.version>
-        <jbpm.version>4.4</jbpm.version>
-        <cargo.version>1.0.6</cargo.version>
-        <jmock.version>2.5.1</jmock.version>
-        <jsp.version>2.1</jsp.version>
-        <junit.version>4.8.2</junit.version>
-        <servlet.version>4.0.1</servlet.version>
-        <wiser.version>1.2</wiser.version>
-        <webtest.version>3.0</webtest.version>
-        <axis2.version>1.5.4</axis2.version>
-        <jdbc.groupId>com.oracle</jdbc.groupId>
-        <jdbc.artifactId>ojdbc14</jdbc.artifactId>
-        <jdbc.version>10.2.0.2.0</jdbc.version>
-        <jdbc.driverClassName>oracle.jdbc.OracleDriver</jdbc.driverClassName>
-    </properties>
+
 </project>

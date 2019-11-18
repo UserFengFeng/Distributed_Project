@@ -1,0 +1,16 @@
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--
+        别名的定义
+    <typeAliases>
+        <typeAlias type="java.util.Map" alias="map"/>
+    </typeAliases> -->
+    <mappers>
+        <mapper resource="mapper/EbBrandMapper.xml"/>
+
+    </mappers>
+
+</configuration>

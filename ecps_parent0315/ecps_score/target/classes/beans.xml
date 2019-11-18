@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+         http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context-3.0.xsd
+         http://www.springframework.org/schema/tx
+         http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+         http://www.springframework.org/schema/aop
+         http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+    <!-- bean aop advice context
+        如果配置量会随着代码量的增加而增加，就不适合使用xml配置文件的方式,适合使用注解，对于bean的管理适合使用注解
+    -->
+    <context:component-scan base-package="com.rl.ecps"/>
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="oracle.jdbc.OracleDriver"></property>
+        <property name="url" value="jdbc:oracle:thin:@127.0.0.1:1521:orcl"></property>
+        <property name="username" value="gx0315"></property>
+        <property name="password" value="gx0315"></property>
+    </bean>
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"></property>
+        <!--<property name="configLocation" value="classpath:sqlMapConfig.xml"></property>-->
+        <property name="mapperLocations" value="classpath:mapper/*.xml"/>
+        <property name="typeAliasesPackage" value="com.rl.ecps.model"/>
+    </bean>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--这个过时了，加不加效果是一样的-->
+        <!--<property name="sqlSessionFactory" ref="sqlSessionFactory"/>-->
+        <property name="basePackage" value="com.rl.ecps.dao"/>
+    </bean>
+
+    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <!--
+        事务配置适合使用配置文件
+        事务是在service层管理事务
+     -->
+    <aop:config>
+        <aop:advisor advice-ref="txAdvice" pointcut="execution(* com.rl.ecps.service..*.*(..))"/>
+    </aop:config>
+    <!--
+        public void saveOrder(Order order, Detail detail){
+            // 有了两个数据库事务的连接(要保证他们两同时成功，同时失败，得再同一事务里)
+            // 整个过程不管有多少个dao用的都是一个事务
+            orderDao.saveOrder(order); // 开启事务
+            detailDao.saveDetail(order); // 不在开启事务、而是使用开启过得事务来用
+        }
+    -->
+    <tx:advice id="txAdvice" transaction-manager="txManager">
+        <tx:attributes>
+            <tx:method name="save*" propagation="REQUIRED"/>
+            <tx:method name="add*" propagation="REQUIRED"/>
+            <tx:method name="update*" propagation="REQUIRED"/>
+            <tx:method name="delete*" propagation="REQUIRED"/>
+            <tx:method name="remove*" propagation="REQUIRED"/>
+            <!--查询不用事务-->
+            <tx:method name="get*" read-only="true"/>
+            <tx:method name="query*" read-only="true"/>
+            <tx:method name="select*" read-only="true"/>
+        </tx:attributes>
+    </tx:advice>
+</beans>

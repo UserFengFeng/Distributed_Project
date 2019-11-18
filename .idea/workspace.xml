@@ -7,32 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12aa9db8-7457-4cd2-9730-2ebff6163cd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_console/src/main/webapp/ecps/console/common/studentmenu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_console/src/main/webapp/shop/student/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_console/src/main/webapp/shop/student/liststudent.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_score/src/main/java/com/rl/ecps/dao/EbBrandDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_score/src/main/java/com/rl/ecps/dao/impl/EbBrandDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_score/src/main/java/com/rl/ecps/model/EbBrand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_score/src/main/resources/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_score/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_score/src/main/resources/mapper/EbBrandMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_score/src/main/resources/sqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/ecps_parent0315.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_score/src/main/java/com/rl/ecps/service/EbBarandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_score/src/main/java/com/rl/ecps/service/impl/EbBarandServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_score/src/test/EbBrandServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_console/ecps_console.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_console/ecps_console.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_console/src/main/webapp/WEB-INF/menu-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_console/src/main/webapp/WEB-INF/menu-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_console/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_console/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_console/src/main/webapp/ecps/console/common/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_console/src/main/webapp/ecps/console/common/menu.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_console/target/ecps_console-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_console/target/ecps_console-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_console/target/ecps_console-1.0-SNAPSHOT/WEB-INF/menu-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_console/target/ecps_console-1.0-SNAPSHOT/WEB-INF/menu-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_console/target/ecps_console-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_console/target/ecps_console-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_console/target/ecps_console-1.0-SNAPSHOT/ecps/console/common/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_console/target/ecps_console-1.0-SNAPSHOT/ecps/console/common/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_file/ecps_file.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_file/ecps_file.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_parent0315.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_parent0315.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/ecps_portal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/ecps_portal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_console/target/ecps_console-1.0-SNAPSHOT/ecps/console/common/studentmenu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_console/target/ecps_console-1.0-SNAPSHOT/ecps/console/common/studentmenu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/target/ecps_portal-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_portal/target/ecps_portal-1.0-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_score/ecps_score.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_score/ecps_score.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_score/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_score/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_score/src/main/java/com/rl/ecps/dao/impl/EbBrandDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecps_parent0315/ecps_score/src/main/resources/mapper/EbBrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecps_parent0315/ecps_score/src/main/resources/mapper/EbBrandMapper.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -89,8 +77,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ecps_parent0315/ecps_score" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -102,13 +92,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Project\Distributed_Project\ecps_parent0315\ecps_score\src\main\resources\mapper" />
-      <recent name="D:\Project\Distributed_Project\ecps_parent0315\ecps_console\src\main" />
-      <recent name="D:\Project\Distributed_Project\ecps_parent0315\ecps_portal\src\main\webapp" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Project\Distributed_Project\ecps_parent0315\ecps_console\src\main\webapp\shop\student" />
@@ -116,6 +104,14 @@
       <recent name="D:\Project\Distributed_Project\ecps_parent0315" />
       <recent name="D:\Project\Distributed_Project\ecps_parent0315\ecps_console\src\main\webapp\WEB-INF" />
       <recent name="D:\Project\Distributed_Project\ecps_parent0315\ecps_console\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\Distributed_Project\ecps_parent0315\ecps_score\src\main\resources\mapper" />
+      <recent name="D:\Project\Distributed_Project\ecps_parent0315\ecps_console\src\main" />
+      <recent name="D:\Project\Distributed_Project\ecps_parent0315\ecps_portal\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -130,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.mybatis-generator">
+  <component name="RunManager">
     <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -157,82 +153,6 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="Tomcat 9.0.22" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.96" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="ecps_console:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/ecps_console_war" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Distributed_Project" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="61484" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="ecps_console:war" />
-        </option>
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Maven.mybatis-generator" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.22" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -252,7 +172,8 @@
       <workItem from="1573699920990" duration="6464000" />
       <workItem from="1573781388393" duration="6635000" />
       <workItem from="1573796171806" duration="19000" />
-      <workItem from="1573797012816" duration="8660000" />
+      <workItem from="1573797012816" duration="13422000" />
+      <workItem from="1574039826117" duration="2593000" />
     </task>
     <servers />
   </component>

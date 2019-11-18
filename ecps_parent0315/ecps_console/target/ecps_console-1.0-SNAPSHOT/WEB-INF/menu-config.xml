@@ -6,7 +6,7 @@
 	<Menus>
 		
         <Menu name="MainMenu" title="首页" page="/shop/mainMenu.jsp" />
-        <Menu name="ItemMgmtMenu" title="商品管理" page="/shop/item/index.jsp" />
+        <Menu name="ItemMgmtMenu" title="商品管理" page="/item/toIndex.do" />
         <!-- 辽宁2期屏蔽该功能 -->
         <!-- <Menu name="SimCardMgmtMenu" title="号卡管理" page="/shop/simcard/index.jsp" /> -->
         <Menu name="OrderMgmtMenu" title="订单管理" page="/shop/order/index.jsp" />

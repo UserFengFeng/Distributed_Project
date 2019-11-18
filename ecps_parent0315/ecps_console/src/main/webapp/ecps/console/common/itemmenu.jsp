@@ -12,6 +12,6 @@
 <li><a href="${base}/activity/listAudit.do?auditStatus=0&labelStatus=1"><samp class="t05"></samp>营销案审核</a></li>
 <li><a href="${base}/activity/listoffer.do"><samp class="t05"></samp>营销案档次</a></li>
 <li><a href="${path}/shop/item/listfeature.jsp"><samp class="t05"></samp>属性管理</a></li>
-<li><a href="${path}/shop/item/listbrand.jsp"><samp class="t05"></samp>品牌管理</a></li>
+<li><a href="${path}/item/listBrand.do"><samp class="t05"></samp>品牌管理</a></li>
 </ul>
 

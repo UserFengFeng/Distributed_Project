@@ -76,6 +76,49 @@ $(function () {
         }
         return isSubit;
     })
+
+    $("#form111").find("[reg2]").blur(function () {
+        var val = $(this).val().trim();
+        // 获得正则
+        var reg = $(this).attr("reg2");
+        //  获得提示信息
+        var tip = $(this).attr("tip");
+        // 创建正则表达式的对象
+        var regExp = new RegExp(reg);
+        if (!regExp.test(val)) {
+            $(this).next("span").html("<font color='red'>" + tip + "</font>");
+        } else {
+            // 判断当前的input是品牌名称
+            var inputName = $(this).attr("name")
+            if (inputName == "brandName") {
+                // 校验品牌名称
+                var result = validBrandName(val);
+                if (result == "error") {
+                    $(this).next("span").html("<font color='red'>品牌名称已存在</font>");
+
+                } else {
+                    $(this).next("span").html("");
+                }
+            } else {
+                $(this).next("span").html("");
+            }
+        }
+    })
+
+    $("#form111").find("[reg1]").blur(function () {
+        var val = $(this).val().trim();
+        // 获得正则
+        var reg = $(this).attr("reg1");
+        //  获得提示信息
+        var tip = $(this).attr("tip");
+        // 创建正则表达式的对象
+        var regExp = new RegExp(reg);
+        if (val !== null && val !== "" && !regExp.test(val)) {
+            $(this).next("span").html("<font color='red'>" + tip + "</font>");
+        } else {
+            $(this).next("span").html("");
+        }
+    })
 })
 
 /**

@@ -34,7 +34,7 @@
             <a href="<c:url value="/${system }/item/brand/listBrand.do"/>" title="返回品牌管理"
                class="inb btn80x20">返回品牌管理</a>
         </div>
-        <form id="form111" name="form111" action="${path }/brand/addBrand.do" method="post"
+        <form id="form111" name="form111" action="${path }/item/addBrand.do" method="post"
               enctype="multipart/form-data">
             <input type="hidden" name="lastRealPath" id="lastRealPath">
             <div class="edit set">

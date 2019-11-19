@@ -8,4 +8,6 @@ public interface EbBarandService {
     void saveBrand(EbBrand brand);
 
     List<EbBrand> selectBrandAll();
+
+    List<EbBrand> selectBrandByName(String brandName);
 }

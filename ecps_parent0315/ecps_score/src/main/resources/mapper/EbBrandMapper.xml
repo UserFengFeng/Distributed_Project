@@ -143,4 +143,8 @@
     <select id="selectBrandAll" resultType="EbBrand" resultMap="BaseResultMap">
     select * from eb_brand
   </select>
+    <select id="selectBrandByName" parameterType="string" resultMap="BaseResultMap">
+        select * from eb_brand t where t.brand_name = #{brandName}
+    </select>
+
 </mapper>

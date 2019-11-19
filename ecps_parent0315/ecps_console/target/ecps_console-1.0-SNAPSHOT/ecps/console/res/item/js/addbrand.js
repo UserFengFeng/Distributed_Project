@@ -34,7 +34,22 @@ $(function () {
                 // 在jquery中跳出循环用return false
                 return false
             } else {
-                $(this).next("span").html("");
+                // 判断当前的input是品牌名称
+                var inputName = $(this).attr("name")
+                if (inputName == "brandName") {
+                    // 校验品牌名称
+                    var result = validBrandName(val);
+                    if (result == "error") {
+                        $(this).next("span").html("<font color='red'>品牌名称已存在</font>");
+                        isSubit = false
+                        // 在jquery中跳出循环用return false
+                        return false
+                    } else {
+                        $(this).next("span").html("");
+                    }
+                } else {
+                    $(this).next("span").html("");
+                }
             }
         })
 
@@ -55,6 +70,36 @@ $(function () {
                 $(this).next("span").html("");
             }
         })
+        // 防止表单二次提交
+        if (isSubit) {
+            tipShow("#refundLoadDiv")
+        }
         return isSubit;
     })
 })
+
+/**
+ * 品牌名称重复性校验
+ * ajax: 默认异步的
+ * @param brandName
+ * @returns {string}
+ */
+function validBrandName(brandName) {
+    var result = "success"
+    $.ajax({
+        url: path + "/item/validBrandName.do",
+        type: 'post',
+        async: false, // 把ajax设置为同步
+        data: {
+            brandName: brandName
+        },
+        dataType: "text",
+        success: function (responseText) {
+            result = responseText;
+        },
+        error: function () {
+            alert("系统错误");
+        }
+    })
+    return result;
+}

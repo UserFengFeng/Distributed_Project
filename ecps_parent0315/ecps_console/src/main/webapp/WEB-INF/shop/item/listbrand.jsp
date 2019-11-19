@@ -46,7 +46,7 @@
                     <tr>
                         <td>${brand.brandId}</td>
                         <td>
-                            <img id='imgsImgSrc' src="http://b.hiphotos.baidu.com/image/pic/item/32fa828ba61ea8d3fcd2e9ce9e0a304e241f5803.jpg"
+                            <img id='imgsImgSrc' src="${request_file_path }${brand.imgs}"
                                  height="50"
                                  width="50"/></td>
                         <td>${brand.brandName}</td>

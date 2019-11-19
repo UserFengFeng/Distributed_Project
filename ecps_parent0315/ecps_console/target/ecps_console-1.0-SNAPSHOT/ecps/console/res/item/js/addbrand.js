@@ -1,5 +1,4 @@
 function submitUpload() {
-    console.log(111111111)
     var option = {
         url: path + "/upload/uploadPic.do", // 上传的url
         dataType: "text", // 回调值的数据类型
@@ -7,6 +6,7 @@ function submitUpload() {
             var jsonObh = $.parseJSON(responseText);
             $("#imgsImgSrc").attr("src", jsonObh.realPath)
             $("#imgs").val(jsonObh.relativePath)
+            $("#lastRealPath").val(jsonObh.realPath)
         },
         error: function () {
             alert("系统错误!");

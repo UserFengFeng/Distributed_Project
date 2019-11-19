@@ -4,6 +4,8 @@ import com.rl.ecps.utils.ECPSUtils;
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.WebResource;
 import net.sf.json.JSONObject;
+import org.apache.commons.lang.StringUtils;
+import org.hsqldb.lib.StringUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.multipart.MultipartFile;
@@ -35,7 +37,7 @@ import java.util.Random;
 public class UploadController {
 
     @RequestMapping("/uploadPic.do")
-    public void uploadPic(HttpServletRequest request, PrintWriter pw) throws IOException {
+    public void uploadPic(HttpServletRequest request, PrintWriter pw, String lastRealPath) throws IOException {
         // 强制转换request
         MultipartHttpServletRequest mr = (MultipartHttpServletRequest) request;
         // 从表单中获得文件
@@ -60,8 +62,16 @@ public class UploadController {
         // 要上传文件的绝对路径
         String realPath = ECPSUtils.readProp("upload_file_path") + "/upload/" + fileName + suffix;
         String relativePath = "/upload/" + fileName + suffix; // 相对路径
+
         // 由于需要在不同主机上上传，不能通过流的方式写文件，必须使用jersey
         Client client = Client.create(); // 创建jersey客户端
+
+        // 判断是不是第一次上传
+        if(StringUtils.isNotBlank(lastRealPath)) {
+            WebResource resource = client.resource(lastRealPath);
+            resource.delete();
+        }
+
         // 指定要上传的具体地址,参数就是要上传的绝对路径
         WebResource resource = client.resource(realPath);
         // 文件上传到文件服务器中

@@ -13,7 +13,7 @@
             在WEB-INF里面：相对路径不是jsp文件的目录结构，而是跳转到该jsp的Controller的路径的相对路径。
             例如：http://localhost:8080/ecps_console_war/item/toAddBrand.do，在这个连接中相对的是toAddBrand.do 它和js文件夹同级
     --%>
-    <script type="text/javascript">var path="${path }";</script>
+    <script type="text/javascript">var path = "${path }";</script>
     <script type="text/javascript" src="${path }/ecps/console/res/item/js/addbrand.js"></script>
 </head>
 <body id="main">
@@ -57,6 +57,7 @@
                 <p><label></label><input type='file' size='27' id='imgsFile' name='imgsFile' class="file"
                                          onchange='submitUpload()'/><span id="submitImgTip" class="pos">请上传图片宽为120px，高为50px，大小不超过100K。</span>
                     <input type='hidden' id='imgs' name='imgs' value='' reg2="^.+$" tip="亲！您忘记上传图片了。"/>
+                    <span></span>
                 </p>
 
                 <p><label>品牌网址：</label><input type="text" name="website" class="text state" maxlength="100"

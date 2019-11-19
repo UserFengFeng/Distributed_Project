@@ -15,3 +15,46 @@ function submitUpload() {
     // 使用ajax方式提交表单，上传文件
     $("#form111").ajaxSubmit(option);
 }
+
+$(function () {
+    $("#form111").submit(function () {
+        var isSubit = true
+        // 校验必填字段
+        $(this).find("[reg2]").each(function () {
+            var val = $(this).val().trim();
+            // 获得正则
+            var reg = $(this).attr("reg2");
+            //  获得提示信息
+            var tip = $(this).attr("tip");
+            // 创建正则表达式的对象
+            var regExp = new RegExp(reg);
+            if (!regExp.test(val)) {
+                $(this).next("span").html("<font color='red'>" + tip + "</font>");
+                isSubit = false
+                // 在jquery中跳出循环用return false
+                return false
+            } else {
+                $(this).next("span").html("");
+            }
+        })
+
+        $(this).find("[reg1]").each(function () {
+            var val = $(this).val().trim();
+            // 获得正则
+            var reg = $(this).attr("reg1");
+            //  获得提示信息
+            var tip = $(this).attr("tip");
+            // 创建正则表达式的对象
+            var regExp = new RegExp(reg);
+            if (val !== null && val !== "" && !regExp.test(val)) {
+                $(this).next("span").html("<font color='red'>" + tip + "</font>");
+                isSubit = false
+                // 在jquery中跳出循环用return false
+                return false
+            } else {
+                $(this).next("span").html("");
+            }
+        })
+        return isSubit;
+    })
+})

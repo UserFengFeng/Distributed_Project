@@ -38,5 +38,4 @@ public class EbItemController {
     public String toAddBrand() {
         return "item/addbrand";
     }
-
 }

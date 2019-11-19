@@ -20,17 +20,17 @@
     <!-- 注解扫描器 -->
     <context:component-scan base-package="com.rl.ecps.controller"/>
 
-    <!-- 该文件上传的视图解析器的id必须配，而且id的值是multipartResolver -->
-    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-        <!-- 最大的文件大小，按byte单位来计算 -->
-        <property name="maxUploadSize" value="102400000"></property>
-    </bean>
-
     <!-- 视图解析器 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <!-- 前缀，前后必须要有/ -->
         <property name="prefix" value="/WEB-INF/shop/"></property>
         <!-- 后缀，必须要有. -->
         <property name="suffix" value=".jsp"></property>
+    </bean>
+
+    <!-- 该文件上传的视图解析器的id必须配，而且id的值是multipartResolver(固定的)， 复杂类型的数据解析器-->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!-- 最大的文件大小，按byte单位来计算 -->
+        <property name="maxUploadSize" value="102400000"></property>
     </bean>
 </beans>

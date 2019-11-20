@@ -10,6 +10,7 @@
     </typeAliases> -->
     <mappers>
         <mapper resource="mapper/EbBrandMapper.xml"/>
+        <mapper resource="mapper/EbItemMapper.xml"/>
 
     </mappers>
 

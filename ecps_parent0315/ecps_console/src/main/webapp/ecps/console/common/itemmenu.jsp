@@ -6,7 +6,7 @@
 </head>
 <h2><samp class="t03"></samp>商品管理</h2>
 <ul class="ul">
-<li><a href="${path}/shop/item/list.jsp"><samp class="t05"></samp>商品录入/上下架</a></li>
+<li><a href="${path}/item/listItem.do?showStatus=1"><samp class="t05"></samp>商品录入/上下架</a></li>
 <li><a href="${path}/shop/item/listAudit.jsp?auditStatus=0&showStatus=1"><samp class="t05"></samp>商品审核</a></li>
 <li><a href="${base}/activity/listOfferGroup.do?showStatus=1&labelStatus=4"><samp class="t05"></samp>营销案管理</a></li>
 <li><a href="${base}/activity/listAudit.do?auditStatus=0&labelStatus=1"><samp class="t05"></samp>营销案审核</a></li>

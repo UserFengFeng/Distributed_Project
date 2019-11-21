@@ -26,9 +26,9 @@
         <h2 class="h2_ch"><span id="tabs" class="l">
         <!--  <a id="label3" href="${base}/item/listEntity.do?showStatus=2"   title="待上架实体商品" class="nor">待上架</a>  -->
         <a id="label6" href="${path}/item/listItem.do" title="全部实体商品" class="nor">全部</a>
-        <a id="label4" href="${path}/item/listItem.do?showStatus=1&auditStatus=1" title="未上架实体商品"
+        <a id="label4" href="${path}/item/listItem.do?showStatus=1" title="未上架实体商品"
            class="nor">未上架</a>
-        <a id="label5" href="${path}/item/listItem.do?showStatus=0&auditStatus=1" title="已上架实体商品"
+        <a id="label5" href="${path}/item/listItem.do?showStatus=0" title="已上架实体商品"
            class="nor">已上架</a>
     </span></h2>
 
@@ -133,17 +133,22 @@
             <div class="page_c">
         <span class="l inb_a">
         </span>
-        <span class="r page">
+                <span class="r page">
             <%--变换后的--%>
             <input type="hidden" id="pageNo" name="pageNo"/>
             <%-- 两个隐藏域用于判断上一页和下一页的展示和隐藏--%>
             <input type="hidden" value="${page.pageNo}" id="currentPageNo" name="currentPageNo"/>
             <input type="hidden" value="${page.totalPage}" id="totalPage" name="totalPage"/>
-                    共<var id="pagePiece" class="orange">0</var>条<var id="pageTotal">1/1</var>
+                    共<var id="pagePiece" class="orange">${page.totalCount }</var>条<var
+                        id="pageTotal">${page.pageNo}/${page.totalCount}</var>
             <a href="javascript:void(0);" id="firstPage" class="hidden" title="上一页">首页</a>
             <a href="javascript:void(0);" id="next" class="hidden" title="下一页">下一页</a>
-            <a href="javascript:void(0);" id="next" class="hidden" title="下一页">下一页</a>
-            <a href="javascript:void(0);" id="lastPage" class="hidden" title="下一页">尾页</a>
+                <select id="selectPage">
+                    <c:forEach begin="1" end="${page.totalPage }" var="myPage">
+                        <option value="${myPage} ">第${myPage }页</option>
+                    </c:forEach>
+                </select>
+            <a href="javascript:void(0);" id="lastPage" class="hidden" title="尾页">尾页</a>
 
         </span>
             </div>
